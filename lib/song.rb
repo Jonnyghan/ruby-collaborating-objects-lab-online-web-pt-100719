@@ -29,7 +29,7 @@ def self.new_by_filename(file)
     song_name = file.split(" - ")[1]
     song = Song.new(song_name)
     song.artist = artist_name
-    #binding.pry
+    binding.pry
     @@all << song
     song
   end

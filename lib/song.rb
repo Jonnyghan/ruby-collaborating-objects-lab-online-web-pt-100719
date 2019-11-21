@@ -31,6 +31,7 @@ def self.new_by_filename(file)
     song.artist = artist_name
     #binding.pry
     @@all << song
+    song
   end
 
 
